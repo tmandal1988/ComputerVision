@@ -1,2 +1,2 @@
 # ComputerVision
-Computer Vision example and practice codes
+Just holds example and practice codes for computer vison from home laptop.
