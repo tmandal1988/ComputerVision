@@ -35,7 +35,8 @@ int main(int argc, char** argv){
 		return -1;
 	}
 
-	VideoCapture cap(atoi(argv[1]));//open the default camera    
+	VideoCapture cap(atoi(argv[1]));//open the default camera   
+	std::cout<<"Trying to open "<<atoi(argv[1])<<" camera"<<std::endl; 
 
     if(!cap.isOpened())//check if we succeeded
     	return -1;
